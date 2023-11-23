@@ -1,0 +1,23 @@
+/* Styles for buttons */
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #8ED5FF, #0072FF);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-image 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-image: linear-gradient(to top left, #8ED5FF, #0072FF);
+  }
+  
+  /* Optional: Adjusting container styles */
+  .button-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  

@@ -3,12 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AddEventFormComponent } from './components/add-event-form/add-event-form.component';
+import { HeaderComponent } from './components/header/header.component';
 
 import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddEventFormComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

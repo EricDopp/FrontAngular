@@ -2,19 +2,19 @@
     <h1>Add Event</h1>
     <form (ngSubmit)="addEvent()">
       <label for="eventName">Event Name:</label>
-      <input type="text" id="eventName" [(ngModel)]="newEvent.name" name="eventName" required><br><br>
+      <input type="text" id="eventName" name="eventName" required><br><br>
   
       <label for="eventDate">Event Date:</label>
-      <input type="date" id="eventDate" [(ngModel)]="newEvent.date" name="eventDate" required><br><br>
+      <input type="date" id="eventDate" name="eventDate" required><br><br>
   
       <label for="eventLocation">Event Location:</label>
-      <input type="text" id="eventLocation" [(ngModel)]="newEvent.location" name="eventLocation" required><br><br>
+      <input type="text" id="eventLocation" name="eventLocation" required><br><br>
   
       <label for="eventDescription">Event Description:</label><br>
-      <textarea id="eventDescription" [(ngModel)]="newEvent.description" name="eventDescription" required></textarea><br><br>
+      <textarea id="eventDescription" name="eventDescription" required></textarea><br><br>
   
       <label for="eventTime">Event Time:</label>
-      <input type="time" id="eventTime" [(ngModel)]="newEvent.time" name="eventTime" required><br><br>
+      <input type="time" id="eventTime" name="eventTime" required><br><br>
   
       <button type="submit">Add Event</button>
     </form>

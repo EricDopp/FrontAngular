@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-event',
-  templateUrl: './event.component.html',
-  styleUrls: ['./event.component.css']
+  templateUrl: 'add-event-form.component.html',
+  styleUrls: ['add-event-form.component.css'],
 })
 export class EventComponent {
   events: any[] = [];

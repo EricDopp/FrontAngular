@@ -21,6 +21,7 @@ export class EventsService {
   }
 
   createEvent(event: Events):Observable<Events>{
+    console.log(event)
     return this.client.post<Events>(this.apiKey, event);
   }
 

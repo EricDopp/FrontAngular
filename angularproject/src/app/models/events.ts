@@ -1,7 +1,7 @@
 export interface Events {
     id?: number,
-    Name: string,
-    Location:string,
-    Description: string,
-    Time: string
+    name: string,
+    location:string,
+    description: string,
+    time: string
 }

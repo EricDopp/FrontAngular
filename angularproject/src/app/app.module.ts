@@ -7,11 +7,19 @@ import { AppComponent } from './app.component';
 import { EventComponent } from './components/add-event-form/add-event-form.component';
 
 import {HttpClientModule} from '@angular/common/http';
+import { FavoritesComponent } from './components/favorites/favorites.component';
+import { HeaderComponent } from './components/header/header.component';
+import { EventDetailsComponent } from './components/event-details/event-details.component';
+import { FavoriteDetailsComponent } from './components/favorite-details/favorite-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EventComponent
+    EventComponent,
+    FavoritesComponent,
+    HeaderComponent,
+    EventDetailsComponent,
+    FavoriteDetailsComponent
   ],
   imports: [
     BrowserModule,

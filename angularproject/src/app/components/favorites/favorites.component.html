@@ -1,0 +1,9 @@
+<div>
+    <h1>Events</h1>
+    <ul>
+    <li *ngFor="let favorite of favorites">
+        <strong>{{ favorite.event?.name }}</strong><br>
+        <button [routerLink]="['/favorites', favorite.favoriteId]">See more details</button>
+    </li>
+    </ul>
+</div>

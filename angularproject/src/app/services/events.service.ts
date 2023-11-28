@@ -16,8 +16,8 @@ export class EventsService {
     return this.client.get<Events[]>(this.apiKey);
   }
 
-  getEventById(id: number):Observable<Event>{
-    return this.client.get<Event>(`${this.apiKey}/${id}`);
+  getEventById(id: number):Observable<Events>{
+    return this.client.get<Events>(`${this.apiKey}/${id}`);
   }
 
   createEvent(event: Events):Observable<Events>{

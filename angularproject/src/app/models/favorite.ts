@@ -1,5 +1,8 @@
+import { Events } from "./events";
+
 export interface Favorite {
-    FavoriteId?: number,
-    UserId: string,
-    EventId: number
+    favoriteId?: number,
+    userId: string,
+    eventId: number,
+    event?: Events
 }

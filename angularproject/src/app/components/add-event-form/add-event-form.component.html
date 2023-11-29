@@ -23,11 +23,7 @@
     <ul>
       <li *ngFor="let event of events">
         <strong>{{ event.name }}</strong><br>
-        Date: {{ event.date }}<br>
-        Location: {{ event.location }}<br>
-        Description: {{ event.description }}<br>
-        Time: {{ event.time }}<br>
-        <button (click)="subscribe(event)">Subscribe</button>
+        <button [routerLink]="['/event', event.eventId]">See more details</button>
       </li>
     </ul>
   </div>
